@@ -88,7 +88,7 @@
     --main-300: hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.6));
     --main-400: hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.5));
     --main-500: hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.4));
-    --main-600: hsl(var(--main-h), var(--main-s), var(--main-l));
+    --main-600: #000000;
     --main-700: hsl(var(--main-h), var(--main-s), calc(var(--main-l) - var(--main-l) * 0.1));
     --main-800: hsl(var(--main-h), var(--main-s), calc(var(--main-l) - var(--main-l) * 0.2));
     --main-900: hsl(var(--main-h), var(--main-s), calc(var(--main-l) - var(--main-l) * 0.3));
@@ -102,7 +102,7 @@
     --main-two-700: hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) - var(--main-two-l) * 0.1));
     --main-two-800: hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) - var(--main-two-l) * 0.2));
     --main-two-900: hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) - var(--main-two-l) * 0.3));
-    --neutral-50: #e9f8ff;
+    --neutral-50: #0072a7;
     --neutral-100: #f3f4f6;
     --neutral-200: #e5e7eb;
     --neutral-300: #d1d5db;
@@ -8390,15 +8390,15 @@ input:focus, input:focus-visible {
     border: 1px solid #ffc860;
 }
 
-.travelor-plane-shape {
+.Exploreza-plane-shape {
     top: 75%;
 }
 
-.travelor-bg-shape {
+.Exploreza-bg-shape {
     top: -135px !important;
 }
 
-.travelor-ip-bg-shape {
+.Exploreza-ip-bg-shape {
     bottom: -40px;
 }
 
@@ -8990,35 +8990,35 @@ input:focus, input:focus-visible {
     right: -56%;
 }
 
-.travelor-title {
+.Exploreza-title {
     font-size: 200px;
 }
 
 @media screen and (max-width: 991px) {
-    .travelor-title {
+    .Exploreza-title {
         font-size: 195px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .travelor-title {
+    .Exploreza-title {
         font-size: 140px;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .travelor-title {
+    .Exploreza-title {
         font-size: 110px;
     }
 }
 
 @media screen and (max-width: 424px) {
-    .travelor-title {
+    .Exploreza-title {
         font-size: 93px;
     }
 }
 
-.travelor-text {
+.Exploreza-text {
     font-size: 70px;
     line-height: 96%;
     letter-spacing: 0.02em;
@@ -9026,13 +9026,13 @@ input:focus, input:focus-visible {
 }
 
 @media screen and (max-width: 1399px) {
-    .travelor-text {
+    .Exploreza-text {
         font-size: 58px;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .travelor-text {
+    .Exploreza-text {
         font-size: 47px;
     }
 }
